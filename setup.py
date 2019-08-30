@@ -47,7 +47,7 @@ setup(
     name='spacetx_hca_flattener',
     packages=find_packages(include=['spacetx_hca_flattener']),
     setup_requires=setup_requirements,
-    test_suite='tests',
+    test_suite='spacetx_hca_flattener',
     tests_require=test_requirements,
     url='https://github.com/ttung/spacetx_hca_flattener',
     version='0.0.0',

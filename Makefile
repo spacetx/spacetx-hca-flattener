@@ -51,7 +51,10 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 spacetx_hca_flattener tests
+	flake8 spacetx_hca_flattener
+
+mypy: ## check typing with mypy
+	mypy --ignore-missing-imports spacetx_hca_flattener
 
 test: ## run tests quickly with the default Python
 	py.test
